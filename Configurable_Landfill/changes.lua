@@ -12,6 +12,6 @@ if settings.startup["landfill-unlocked-from-start"].value == true then
 end
 
 --landfill stack size
-if not mods["BigBags2"] then
+if not mods["BigBags"] then
 data.raw.item["landfill"].stack_size = settings.startup["landfill-stack-size"].value
 end
