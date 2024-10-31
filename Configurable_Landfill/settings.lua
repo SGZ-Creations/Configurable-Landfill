@@ -30,7 +30,7 @@ data:extend({
         order = "f"
     },
 })
-if not mods["BigBags2"] then
+if not mods["BigBags"] then
     data:extend({
         {
             type = "int-setting",
