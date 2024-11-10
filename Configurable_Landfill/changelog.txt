@@ -1,4 +1,19 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 10.11.2024
+  Features:
+    - [space-age] Added Tiles from Space age.
+    - [space-age] Gave them result & Craft time settings for now. might be all too.
+    - [space-age] Ice platform, Foundations, Overgrowth Soils, Artificial Soils.
+  Scripting:
+    - File name change.
+  Locale:
+    - Missing some last visual details for NO locals. It's late now want to sleep. 
+    - DE Needs full update by someone who speak the language. rather than me using a bad translator.
+    - Or by next update DE will be deleted.
+  Thanks:
+    - Discord @floy8420 #0841
+---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 31.10.2024
   Changes:
