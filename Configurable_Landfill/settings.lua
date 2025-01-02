@@ -150,4 +150,39 @@ if mods["space-age"] then
             order = "2AQ"
         },
     })
+
+    if (mods["Transport_Drones_Meglinge_Fork"] or mods["Transport_Drones"])then
+        data:extend({
+            {
+                type = "int-setting",
+                name = "road-results",
+                setting_type = "startup",
+                default_value = 10,
+                minimum_value = 10,
+                order = "3AA"
+            },
+            {
+                type = "int-setting",
+                name = "road-energy",
+                setting_type = "startup",
+                default_value = 1,
+                order = "3AB"
+            },
+            {
+                type = "int-setting",
+                name = "froad-results",
+                setting_type = "startup",
+                default_value = 10,
+                minimum_value = 10,
+                order = "3AA"
+            },
+            {
+                type = "int-setting",
+                name = "froad-energy",
+                setting_type = "startup",
+                default_value = 1,
+                order = "3AB"
+            },
+        })
+    end
 end
