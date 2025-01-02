@@ -149,6 +149,21 @@ if mods["space-age"] then
             default_value = 10,
             order = "2AQ"
         },
+        {
+            type = "int-setting",
+            name = "space-platform-foundation-results",
+            setting_type = "startup",
+            default_value = 1,
+            minimum_value = 1,
+            order = "2AR"
+        },
+        {
+            type = "int-setting",
+            name = "space-platform-foundation-energy",
+            setting_type = "startup",
+            default_value = 15,
+            order = "2AS"
+        },
     })
 
     if (mods["Transport_Drones_Meglinge_Fork"] or mods["Transport_Drones"])then

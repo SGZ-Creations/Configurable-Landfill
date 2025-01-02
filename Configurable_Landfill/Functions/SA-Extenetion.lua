@@ -1,4 +1,7 @@
 if mods["space-age"] then
+--[[count=1, time=15]]
+	data.raw.recipe["space-platform-foundation"].results = {{type="item", name="space-platform-foundation", amount = settings.startup["space-platform-foundation-results"].value}}
+	data.raw.recipe["space-platform-foundation"].energy_required = settings.startup["space-platform-foundation-energy"].value
 --[[count=1, time=30]]
 	data.raw.recipe["foundation"].results = {{type="item", name="foundation", amount = settings.startup["foundation-results"].value}}
 	data.raw.recipe["foundation"].energy_required = settings.startup["foundation-energy"].value
