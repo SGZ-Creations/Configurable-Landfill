@@ -4,7 +4,7 @@ data.raw.recipe["landfill"].results = {{type="item", name="landfill", amount= se
 data.raw.recipe["landfill"].energy_required = settings.startup["landfill-energy"].value/10
 
 
---Unlock landfill form start
+--Unlock landfill from start
 if settings.startup["landfill-unlocked-from-start"].value == true then
   data.raw.technology["landfill"].unlocked = true
   data.raw.technology["landfill"].hidden = true
