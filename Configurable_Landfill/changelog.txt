@@ -2,7 +2,7 @@
 Version: 0.1.4
 Date: 11.01.2025
   Bugfixes:
-    - Added reqire file that was forgotten in 0.1.3 release.
+    - Added require file that was forgotten in 0.1.3 release.
     - Transport drones wrong recipe ID.
     - Transport drones wrong item ID
   Changes:
