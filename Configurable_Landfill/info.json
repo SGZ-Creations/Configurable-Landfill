@@ -1,12 +1,13 @@
 {
   "name": "Configurable_Landfill",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "factorio_version": "2.0",
   "title": "Configurable Landfill",
   "author": "SGZ_Creations",
   "description": "Allows the player to change: Cost, Result, CraftTime, UnlockedFromStart, Stacksize if not using BigBags2.",
   "dependencies": [
     "base",
+    "? space-age",
     "? BigBags",
     "? Transport_Drones",
     "? Transport_Drones_Meglinge_Fork"
