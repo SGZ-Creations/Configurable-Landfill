@@ -1,8 +1,21 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 11.01.2025
+  Features:
+    - [space-age] Space Platform Foundation.
+    - Roads.
+  Modding:
+    - Tranport Drones.
+  Info:
+    - Note: Only use one Transport Drone mod should both end up working.
+  Locale:
+    - DE locales are mostly in EN.
+    - Should some NO or EN locales be incorect/Missing please let me know. Note: EN=EU/UK. To best of ability.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 10.11.2024
   Features:
-    - [space-age] Added Tiles from Space age.
+    - [space-age] Tiles.
     - [space-age] Gave them result & Craft time settings for now. might be all too.
     - [space-age] Ice platform, Foundations, Overgrowth Soils, Artificial Soils.
   Scripting:

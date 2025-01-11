@@ -189,14 +189,14 @@ if mods["space-age"] then
                 setting_type = "startup",
                 default_value = 10,
                 minimum_value = 10,
-                order = "3AA"
+                order = "3AC"
             },
             {
                 type = "int-setting",
                 name = "froad-energy",
                 setting_type = "startup",
                 default_value = 1,
-                order = "3AB"
+                order = "3AD"
             },
         })
     end
