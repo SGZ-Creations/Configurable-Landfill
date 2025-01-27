@@ -1,4 +1,4 @@
---Landfill
+--Landfill & Concrete
 data:extend({
     {
         type = "int-setting",
@@ -26,7 +26,35 @@ data:extend({
         name = "landfill-unlocked-from-start",
         setting_type = "startup",
         default_value = false,
-        order = "1z"
+        order = "1d"
+    },
+    {
+        type = "int-setting",
+        name = "concrete-results",
+        setting_type = "startup",
+        default_value = 10,
+        order = "1e"
+    },
+    {
+        type = "int-setting",
+        name = "concrete-energy",
+        setting_type = "startup",
+        default_value = 10,
+        order = "1f"
+    },
+    {
+        type = "int-setting",
+        name = "re-concrete-results",
+        setting_type = "startup",
+        default_value = 10,
+        order = "1g"
+    },
+    {
+        type = "int-setting",
+        name = "re-concrete-energy",
+        setting_type = "startup",
+        default_value = 15,
+        order = "1h"
     },
 })
 if not mods["BigBags"] then
