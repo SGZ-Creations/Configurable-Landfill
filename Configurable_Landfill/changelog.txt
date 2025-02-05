@@ -4,7 +4,7 @@ Date: 25.01.2025
   Features:
     - Added settings for [item=concrete] & [item=refined-concrete].
   Bugfixes:
-    - Crash with Logistica Transport Drones mod. was accididenly needing [space-age] to be active.
+    - Crash with Logistica Transport Drones mod. was accidently needing [space-age] to be active.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 11.01.2025
