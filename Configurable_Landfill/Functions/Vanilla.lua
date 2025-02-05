@@ -2,6 +2,7 @@ local DRR = data.raw.recipe
 local DRT = data.raw.technology
 local DRI = data.raw.item
 local SS = settings.startup
+local Mods = mods
 
 --Change recipe
 DRR["landfill"].ingredients = {{type = "item", name = "stone", amount = SS["landfill-cost"].value}}
@@ -16,7 +17,7 @@ if SS["landfill-unlocked-from-start"].value == true then
 end
 
 --landfill stack size
-if not mods["BigBags"] then
+if not Mods["BigBags"] then
     DRI["landfill"].stack_size = SS["landfill-stack-size"].value
 end
 

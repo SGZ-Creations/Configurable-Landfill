@@ -1,10 +1,23 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 05.02.2025
+  Changes:
+    - local DRI, DRR, DRT, SS, Mods
+  Bugfixes:
+    - Issue with stack size witout bigbags for landfill.
+  Locale:
+    - Added es-ES.
+  Credit:
+    - Thanks (lucerattow) @BlackkLotus es-ES Locals.
+    - Thanks (lucerattow) @BlackkLotus landfill stacksize.
+    - Thanks (lucerattow) @BlackkLotus https://github.com/SGZ-Creations/Configurable-Landfill/pull/1
+---------------------------------------------------------------------------------------------------
 Version: 0.1.5
 Date: 25.01.2025
   Features:
     - Added settings for [item=concrete] & [item=refined-concrete].
   Bugfixes:
-    - Crash with Logistica Transport Drones mod. was accidently needing [space-age] to be active.
+    - Crash with Logistic Transport Drones mod. Was accidently needing [space-age] to be active.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 11.01.2025
