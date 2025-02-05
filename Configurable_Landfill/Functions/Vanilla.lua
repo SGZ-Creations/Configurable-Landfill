@@ -1,5 +1,6 @@
 local DRR = data.raw.recipe
 local DRT = data.raw.technology
+local DRI = data.raw.item
 local SS = settings.startup
 
 --Change recipe
@@ -16,7 +17,7 @@ end
 
 --landfill stack size
 if not mods["BigBags"] then
-    DRR["landfill"].stack_size = SS["landfill-stack-size"].value
+    DRI["landfill"].stack_size = SS["landfill-stack-size"].value
 end
 
 --Time 10, amount 10,
