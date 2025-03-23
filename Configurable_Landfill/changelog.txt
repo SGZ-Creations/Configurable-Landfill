@@ -4,6 +4,7 @@ Date: 23.03.25
   Features:
     - Made Tile speed configurable. StoneBrick, Concrete, RenfiorcedConcrete,
     - Dectorio tile speed support. Concrete Grid, Wood-flooring.
+    - Transport Drones tile speed support. 
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.6
 Date: 05.02.2025
