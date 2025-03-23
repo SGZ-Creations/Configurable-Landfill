@@ -5,56 +5,91 @@ data:extend({
         name = "landfill-cost",
         setting_type = "startup",
         default_value = 50,
-        order = "1a"
+        order = "1Aa"
     },
     {
         type = "int-setting",
         name = "landfill-results",
         setting_type = "startup",
         default_value = 1,
-        order = "1b"
+        order = "1Ab"
     },
     {
         type = "int-setting",
         name = "landfill-energy",
         setting_type = "startup",
         default_value = 5,
-        order = "1c"
+        order = "1Ad"
     },
     {
         type = "bool-setting",
         name = "landfill-unlocked-from-start",
         setting_type = "startup",
         default_value = false,
-        order = "1d"
+        order = "1Ae"
+    },
+    {
+        type = "double-setting",
+        name = "StoneBrickSpeed",
+        setting_type = "startup",
+        default_value = 1.3,
+        order = "1Bc"
     },
     {
         type = "int-setting",
         name = "concrete-results",
         setting_type = "startup",
         default_value = 10,
-        order = "1e"
+        order = "1Ca"
     },
     {
         type = "int-setting",
         name = "concrete-energy",
         setting_type = "startup",
         default_value = 10,
-        order = "1f"
+        order = "1Cb"
+    },
+    {
+        type = "double-setting",
+        name = "ConcreteSpeed",
+        setting_type = "startup",
+        default_value = 1.4,
+        order = "1Cc"
+    },
+    {
+        type = "double-setting",
+        name = "HazardConcreteSpeed",
+        setting_type = "startup",
+        default_value = 1.4,
+        order = "1Cd"
     },
     {
         type = "int-setting",
         name = "re-concrete-results",
         setting_type = "startup",
         default_value = 10,
-        order = "1g"
+        order = "1Da"
     },
     {
         type = "int-setting",
         name = "re-concrete-energy",
         setting_type = "startup",
         default_value = 15,
-        order = "1h"
+        order = "1Db"
+    },
+    {
+        type = "double-setting",
+        name = "RefinedConcreteSpeed",
+        setting_type = "startup",
+        default_value = 1.5,
+        order = "1Dc"
+    },
+    {
+        type = "double-setting",
+        name = "HazardRefinedConcreteSpeed",
+        setting_type = "startup",
+        default_value = 1.5,
+        order = "1Dd"
     },
 })
 if not mods["BigBags"] then
@@ -65,7 +100,7 @@ if not mods["BigBags"] then
             setting_type = "startup",
             default_value = 100,
             minimum_value = 1,
-            order = "1d"
+            order = "1Ac"
         }
     })
 end
@@ -78,14 +113,14 @@ if mods["space-age"] then
             setting_type = "startup",
             default_value = 1,
             minimum_value = 1,
-            order = "2AA"
+            order = "3AA"
         },
         {
             type = "int-setting",
             name = "foundation-energy",
             setting_type = "startup",
             default_value = 30,
-            order = "2AB"
+            order = "3AB"
         },
         {
             type = "int-setting",
@@ -93,14 +128,14 @@ if mods["space-age"] then
             setting_type = "startup",
             default_value = 1,
             minimum_value = 1,
-            order = "2AC"
+            order = "3AC"
         },
         {
             type = "int-setting",
             name = "ice-platform-energy",
             setting_type = "startup",
             default_value = 30,
-            order = "2AD"
+            order = "3AD"
         },
         {
             type = "int-setting",
@@ -108,14 +143,14 @@ if mods["space-age"] then
             setting_type = "startup",
             default_value = 10,
             minimum_value = 1,
-            order = "2AE"
+            order = "3AE"
         },
         {
             type = "int-setting",
             name = "artificial-yumako-soil-energy",
             setting_type = "startup",
             default_value = 2,
-            order = "2AF"
+            order = "3AF"
         },
         {
             type = "int-setting",
@@ -123,14 +158,14 @@ if mods["space-age"] then
             setting_type = "startup",
             default_value = 10,
             minimum_value = 1,
-            order = "2AG"
+            order = "3AG"
         },
         {
             type = "int-setting",
             name = "artificial-yumako-soil-energy",
             setting_type = "startup",
             default_value = 2,
-            order = "2AK"
+            order = "3AK"
         },
         {
             type = "int-setting",
@@ -138,14 +173,14 @@ if mods["space-age"] then
             setting_type = "startup",
             default_value = 10,
             minimum_value = 1,
-            order = "2AL"
+            order = "3AL"
         },
         {
             type = "int-setting",
             name = "artificial-jellynut-soil-energy",
             setting_type = "startup",
             default_value = 2,
-            order = "2AM"
+            order = "3AM"
         },
         {
             type = "int-setting",
@@ -153,14 +188,14 @@ if mods["space-age"] then
             setting_type = "startup",
             default_value = 1,
             minimum_value = 1,
-            order = "2AN"
+            order = "3AN"
         },
         {
             type = "int-setting",
             name = "overgrowth-yumako-soil-energy",
             setting_type = "startup",
             default_value = 10,
-            order = "2AO"
+            order = "3AO"
         },
         {
             type = "int-setting",
@@ -168,14 +203,14 @@ if mods["space-age"] then
             setting_type = "startup",
             default_value = 1,
             minimum_value = 1,
-            order = "2AP"
+            order = "3AP"
         },
         {
             type = "int-setting",
             name = "overgrowth-jellynut-soil-energy",
             setting_type = "startup",
             default_value = 10,
-            order = "2AQ"
+            order = "3AQ"
         },
         {
             type = "int-setting",
@@ -183,14 +218,14 @@ if mods["space-age"] then
             setting_type = "startup",
             default_value = 1,
             minimum_value = 1,
-            order = "2AR"
+            order = "3AR"
         },
         {
             type = "int-setting",
             name = "space-platform-foundation-energy",
             setting_type = "startup",
             default_value = 15,
-            order = "2AS"
+            order = "3AS"
         },
     })
 end
@@ -203,14 +238,14 @@ if (mods["Transport_Drones_Meglinge_Fork"] or mods["Transport_Drones"])then
             setting_type = "startup",
             default_value = 10,
             minimum_value = 10,
-            order = "3AA"
+            order = "4AA"
         },
         {
             type = "int-setting",
             name = "road-energy",
             setting_type = "startup",
             default_value = 1,
-            order = "3AB"
+            order = "4AB"
         },
         {
             type = "int-setting",
@@ -218,14 +253,14 @@ if (mods["Transport_Drones_Meglinge_Fork"] or mods["Transport_Drones"])then
             setting_type = "startup",
             default_value = 10,
             minimum_value = 10,
-            order = "3AC"
+            order = "4AC"
         },
         {
             type = "int-setting",
             name = "froad-energy",
             setting_type = "startup",
             default_value = 1,
-            order = "3AD"
+            order = "4AD"
         },
     })
 end
