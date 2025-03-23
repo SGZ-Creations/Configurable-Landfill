@@ -1,8 +1,9 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.7
 Date: 23.03.25
-  Changes:
+  Features:
     - Made Tile speed configurable. StoneBrick, Concrete, RenfiorcedConcrete,
+    - Dectorio tile speed support. Concrete Grid, Wood-flooring.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.6
 Date: 05.02.2025
@@ -14,7 +15,7 @@ Date: 05.02.2025
     - Added es-ES.
   Credit:
     - Thanks (lucerattow) @BlackkLotus es-ES Locals.
-    - Thanks (lucerattow) @BlackkLotus landfill stacksize.
+    - Thanks (lucerattow) @BlackkLotus for locating bug on landfill stacksize.
     - Thanks (lucerattow) @BlackkLotus https://github.com/SGZ-Creations/Configurable-Landfill/pull/1
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.5

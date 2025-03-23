@@ -1,18 +1,30 @@
 --Landfill & Concrete
+if not mods["BigBags"] then
+    data:extend({
+        {
+            type = "int-setting",
+            name = "landfill-stack-size",
+            setting_type = "startup",
+            default_value = 100,
+            minimum_value = 1,
+            order = "1Aa"
+        }
+    })
+end
 data:extend({
     {
         type = "int-setting",
         name = "landfill-cost",
         setting_type = "startup",
         default_value = 50,
-        order = "1Aa"
+        order = "1Ab"
     },
     {
         type = "int-setting",
         name = "landfill-results",
         setting_type = "startup",
         default_value = 1,
-        order = "1Ab"
+        order = "1Ac"
     },
     {
         type = "int-setting",
@@ -92,18 +104,6 @@ data:extend({
         order = "1Dd"
     },
 })
-if not mods["BigBags"] then
-    data:extend({
-        {
-            type = "int-setting",
-            name = "landfill-stack-size",
-            setting_type = "startup",
-            default_value = 100,
-            minimum_value = 1,
-            order = "1Ac"
-        }
-    })
-end
 --ice-platform-results
 if mods["space-age"] then
     data:extend({
@@ -261,6 +261,25 @@ if (mods["Transport_Drones_Meglinge_Fork"] or mods["Transport_Drones"])then
             setting_type = "startup",
             default_value = 1,
             order = "4AD"
+        },
+    })
+end
+
+if mods["Dectorio"] then
+    data:extend({
+        {
+            type = "double-setting",
+            name = "DectWoodSpeed",
+            setting_type = "startup",
+            default_value = 1.2,
+            order = "5Ab"
+        },
+        {
+            type = "double-setting",
+            name = "DectConcreteGridSpeed",
+            setting_type = "startup",
+            default_value = 1.4,
+            order = "5Aa"
         },
     })
 end
