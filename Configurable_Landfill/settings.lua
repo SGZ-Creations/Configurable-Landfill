@@ -34,11 +34,19 @@ data:extend({
         order = "1Ad"
     },
     {
+        type = "double-setting",
+        name = "MineFillTime",
+        setting_type = "startup",
+        default_value = 0.5,
+        minimum_value = 0.001,
+        order = "1Ae"
+    },
+    {
         type = "bool-setting",
         name = "landfill-unlocked-from-start",
         setting_type = "startup",
         default_value = false,
-        order = "1Ae"
+        order = "1Af"
     },
     {
         type = "double-setting",
