@@ -7,7 +7,7 @@ if not mods["BigBags"] then
             setting_type = "startup",
             default_value = 100,
             minimum_value = 1,
-            order = "1Aa"
+            order = "1Ac"
         }
     })
 end
@@ -17,21 +17,21 @@ data:extend({
         name = "landfill-cost",
         setting_type = "startup",
         default_value = 50,
-        order = "1Ab"
+        order = "1Ad"
     },
     {
         type = "int-setting",
         name = "landfill-results",
         setting_type = "startup",
         default_value = 1,
-        order = "1Ac"
+        order = "1Ae"
     },
     {
         type = "int-setting",
         name = "landfill-energy",
         setting_type = "startup",
         default_value = 5,
-        order = "1Ad"
+        order = "1Af"
     },
     {
         type = "double-setting",
@@ -39,14 +39,14 @@ data:extend({
         setting_type = "startup",
         default_value = 0.5,
         minimum_value = 0.001,
-        order = "1Ae"
+        order = "1Ag"
     },
     {
         type = "bool-setting",
         name = "landfill-unlocked-from-start",
         setting_type = "startup",
         default_value = false,
-        order = "1Af"
+        order = "1Ah"
     },
     {
         type = "double-setting",

@@ -1,6 +1,4 @@
-local DRT = data.raw.technology
 local SS = settings.startup
-local Mods = mods
 
 --Change recipe
 data.raw.recipe["landfill"].ingredients = {{type = "item", name = "stone", amount = SS["landfill-cost"].value}}
@@ -8,15 +6,8 @@ data.raw.recipe["landfill"].results = {{type ="item", name ="landfill", amount =
 data.raw.recipe["landfill"].energy_required = SS["landfill-energy"].value/10
 data.raw.tile["landfill"].minable = {mining_time = SS["MineFillTime"].value, result = "landfill"}
 
---Unlock landfill from start
-if SS["landfill-unlocked-from-start"].value == true then
-    DRT["landfill"].unlocked = true
-    DRT["landfill"].hidden = true
-    data.raw.recipe["landfill"].enabled = true
-end
-
 --landfill stack size
-if not Mods["BigBags"] then
+if not mods["BigBags"] then
     data.raw.item["landfill"].stack_size = SS["landfill-stack-size"].value
 end
 

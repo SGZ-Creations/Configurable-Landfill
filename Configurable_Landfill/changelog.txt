@@ -4,9 +4,12 @@ Date: 09.06.25
   Locale:
     - Added Misssing es-ES line in English.
     - Added Sorted files es-ES.
-    - Added Sorted files NOR.
+    - Added Sorted files NO.
   Bugfixes:
     - Changelog typos.
+  Changes:
+    - Attemped to failproof landfill.
+    - Rewrote tool tip. Landfill from start settings.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.8
 Date: 16.04.25
