@@ -1,7 +1,6 @@
-local Mods = mods
 local SS = settings.startup
 
-if Mods["space-age"] then
+if mods["space-age"] then
 --[[count=1, time=15]]
 	data.raw.recipe["space-platform-foundation"].results = {{type="item", name="space-platform-foundation", amount = SS["space-platform-foundation-results"].value}}
 	data.raw.recipe["space-platform-foundation"].energy_required = SS["space-platform-foundation-energy"].value
