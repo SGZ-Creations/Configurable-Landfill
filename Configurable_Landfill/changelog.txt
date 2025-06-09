@@ -21,7 +21,7 @@ Date: 16.04.25
 Version: 0.1.7
 Date: 23.03.25
   Features:
-    - Made Tile speed configurable. [item=stone-brick], [itme=concrete], [itme=refined-concre],
+    - Made Tile speed configurable. [item=stone-brick], [item=concrete], [item=refined-concrete],
     - Dectorio tile speed support.
     - Transport Drones tile speed support. 
 ---------------------------------------------------------------------------------------------------
