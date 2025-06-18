@@ -2,7 +2,7 @@
 local Tech = data.raw.technology
 ---@class data.RecipePrototype
 local Recipes = data.raw.recipe
----@class data.SettingsStartup
+---@class LuaSettings
 local SS = settings.startup
 
 --Unlock landfill from start
