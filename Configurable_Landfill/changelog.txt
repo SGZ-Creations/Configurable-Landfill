@@ -1,14 +1,19 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.10
+Date: 18.06.25
+  Changes:
+    - Improved Landfill from start function when using the setting.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.9
 Date: 09.06.25
   Locale:
-    - Added Misssing es-ES line in English.
+    - Added Missing es-ES line in English.
     - Added Sorted files es-ES.
     - Added Sorted files NO.
   Bugfixes:
     - Changelog typos.
   Changes:
-    - Attemped to failproof landfill.
+    - Attempted to failproof landfill.
     - Rewrote tool tip. Landfill from start settings.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.8
@@ -16,7 +21,7 @@ Date: 16.04.25
   Features:
     - New Setting to change mining speed of [item=landfill]
   Changes:
-    - Orgenized local files.
+    - Organized local files.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.7
 Date: 23.03.25
@@ -30,7 +35,7 @@ Date: 05.02.2025
   Changes:
     - local DRI, DRR, DRT, SS, Mods
   Bugfixes:
-    - Issue with stack size witout bigbags for landfill.
+    - Issue with stack size without BigBags for landfill.
   Locale:
     - Added es-ES.
   Credit:
@@ -65,7 +70,7 @@ Date: 11.01.2025
     - Note: Only use one Transport Drone mod should both end up working.
   Locale:
     - DE locales are mostly in EN.
-    - Should some NO or EN locales be incorect/Missing please let me know. Note: EN=EU/UK. To best of ability.
+    - Should some NO or EN locales be incorrect/missing please let me know. Note: EN=EU/UK. To best of ability.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 10.11.2024
