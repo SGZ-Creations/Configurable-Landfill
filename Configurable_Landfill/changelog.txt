@@ -2,7 +2,7 @@
 Version: 0.1.11
 Date: 05.08.25
   Bugfixes:
-    - Broken setting when using Gregtorio. 
+    - Broken settings when using Gregtorio.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.10
 Date: 18.06.25

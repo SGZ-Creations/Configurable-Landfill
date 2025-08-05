@@ -1,3 +1,4 @@
+---@class LuaSettings
 local SS = settings.startup
 
 --Change recipe
