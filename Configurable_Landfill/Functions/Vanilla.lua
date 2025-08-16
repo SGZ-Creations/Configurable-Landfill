@@ -7,9 +7,14 @@ data.raw.recipe["landfill"].results = {{type ="item", name ="landfill", amount =
 data.raw.recipe["landfill"].energy_required = SS["landfill-energy"].value/10
 data.raw.tile["landfill"].minable = {mining_time = SS["MineFillTime"].value, result = "landfill"}
 
---landfill stack size
+--stack sizes
 if not mods["BigBags"] then
     data.raw.item["landfill"].stack_size = SS["landfill-stack-size"].value
+    data.raw.item["stone-brick"].stack_size = SS["stone-brick-stack-size"].value
+    data.raw.item["concrete"].stack_size = SS["concrete-stack-size"].value
+    data.raw.item["hazard-concrete"].stack_size = SS["hazard-concrete-stack-size"].value
+    data.raw.item["refined-concrete"].stack_size = SS["refined-concrete-stack-size"].value
+    data.raw.item["refined-hazard-concrete"].stack_size = SS["refined-hazard-concrete-stack-size"].value
 end
 
 data.raw.tile["stone-path"].walking_speed_modifier = SS["StoneBrickSpeed"].value
