@@ -284,14 +284,6 @@ if mods["space-age"] then
             default_value = 2,
             order = "3CB"
         },
-        {
-            type = "int-setting",
-            name = "artificial-yumako-soil-results",
-            setting_type = "startup",
-            default_value = 10,
-            minimum_value = 1,
-            order = "3CC"
-        }
     })
     --artificial yumako soil Stack size
     if not mods["BigBags"] then
