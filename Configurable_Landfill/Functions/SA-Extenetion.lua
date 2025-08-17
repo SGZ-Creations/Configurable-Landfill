@@ -1,9 +1,6 @@
 local SS = settings.startup
 
 if mods["space-age"] then
---[[count=1, time=15]]
-	data.raw.recipe["space-platform-foundation"].results = {{type="item", name="space-platform-foundation", amount = SS["space-platform-foundation-results"].value}}
-	data.raw.recipe["space-platform-foundation"].energy_required = SS["space-platform-foundation-energy"].value
 --[[count=1, time=30]]
 	data.raw.recipe["foundation"].results = {{type="item", name="foundation", amount = SS["foundation-results"].value}}
 	data.raw.recipe["foundation"].energy_required = SS["foundation-energy"].value
@@ -22,4 +19,18 @@ if mods["space-age"] then
 --[[count=1, time=10]]
 	data.raw.recipe["overgrowth-jellynut-soil"].results = {{type="item", name="overgrowth-jellynut-soil", amount = SS["overgrowth-jellynut-soil-results"].value}}
 	data.raw.recipe["overgrowth-jellynut-soil"].energy_required = SS["overgrowth-jellynut-soil-energy"].value
+--[[count=1, time=15]]
+	data.raw.recipe["space-platform-foundation"].results = {{type="item", name="space-platform-foundation", amount = SS["space-platform-foundation-results"].value}}
+	data.raw.recipe["space-platform-foundation"].energy_required = SS["space-platform-foundation-energy"].value
+
+	--stack size
+	if not mods["BigBags"] then
+		data.raw.item["foundation"].stack_size = SS["foundation-stack-size"].value
+		data.raw.item["ice-platform"].stack_size = SS["ice-platform-stack-size"].value
+		data.raw.item["artificial-yumako-soil"].stack_size = SS["artificial-yumako-soil-stack-size"].value
+		data.raw.item["artificial-jellynut-soil"].stack_size = SS["artificial-jellynut-soil-stack-size"].value
+		data.raw.item["overgrowth-yumako-soil"].stack_size = SS["overgrowth-yumako-soil-stack-size"].value
+		data.raw.item["overgrowth-jellynut-soil"].stack_size = SS["overgrowth-jellynut-soil-stack-size"].value
+		data.raw.item["space-platform-foundation"].stack_size = SS["space-platform-foundation-stack-size"].value
+	end
 end
