@@ -1,32 +1,39 @@
 ---@class LuaSettings
 local SS = settings.startup
 
+local Tile = data.raw["tile"]
+
+---@class data.RecipePrototype
+local Recipe = data.raw["recipe"]
+
+local Item = data.raw["item"]
+
 --Change recipe
-data.raw.recipe["landfill"].ingredients = {{type = "item", name = "stone", amount = SS["landfill-cost"].value}}
-data.raw.recipe["landfill"].results = {{type ="item", name ="landfill", amount = SS["landfill-results"].value}}
-data.raw.recipe["landfill"].energy_required = SS["landfill-energy"].value/10
-data.raw.tile["landfill"].minable = {mining_time = SS["MineFillTime"].value, result = "landfill"}
+Recipe["landfill"].ingredients = {{type = "item", name = "stone", amount = SS["landfill-cost"].value}}
+Recipe["landfill"].results = {{type ="item", name ="landfill", amount = SS["landfill-results"].value}}
+Recipe["landfill"].energy_required = SS["landfill-energy"].value/10
+Tile["landfill"].minable = {mining_time = SS["MineFillTime"].value, result = "landfill"}
 
 --stack sizes
 if not mods["BigBags"] then
-    data.raw.item["landfill"].stack_size = SS["landfill-stack-size"].value
-    data.raw.item["stone-brick"].stack_size = SS["stone-brick-stack-size"].value
-    data.raw.item["concrete"].stack_size = SS["concrete-stack-size"].value
-    data.raw.item["hazard-concrete"].stack_size = SS["hazard-concrete-stack-size"].value
-    data.raw.item["refined-concrete"].stack_size = SS["refined-concrete-stack-size"].value
-    data.raw.item["refined-hazard-concrete"].stack_size = SS["refined-hazard-concrete-stack-size"].value
+    Item["landfill"].stack_size = SS["LandfillStackSize"].value
+    Item["stone-brick"].stack_size = SS["StoneBrickStackSize"].value
+    Item["concrete"].stack_size = SS["ConcreteStackSize"].value
+    Item["hazard-concrete"].stack_size = SS["HazardConcreteStackSize"].value
+    Item["refined-concrete"].stack_size = SS["RefinedConcreteStackSize"].value
+    Item["refined-hazard-concrete"].stack_size = SS["RefinedHazardConcreteStackSize"].value
 end
 
-data.raw.tile["stone-path"].walking_speed_modifier = SS["StoneBrickSpeed"].value
+Tile["stone-path"].walking_speed_modifier = SS["StoneBrickSpeed"].value
 --Time 10, amount 10, speed 1.4(140%)
-data.raw.recipe["concrete"].results = {{type = "item", name = "concrete", amount = SS["concrete-results"].value}}
-data.raw.recipe["concrete"].energy_required = SS["concrete-energy"].value
-data.raw.tile["concrete"].walking_speed_modifier = SS["ConcreteSpeed"].value
-data.raw.tile["hazard-concrete-left"].walking_speed_modifier = SS["HazardConcreteSpeed"].value
-data.raw.tile["hazard-concrete-right"].walking_speed_modifier = SS["HazardConcreteSpeed"].value
+Recipe["concrete"].results = {{type = "item", name = "concrete", amount = SS["concrete-results"].value}}
+Recipe["concrete"].energy_required = SS["concrete-energy"].value
+Tile["concrete"].walking_speed_modifier = SS["ConcreteSpeed"].value
+Tile["hazard-concrete-left"].walking_speed_modifier = SS["HazardConcreteSpeed"].value
+Tile["hazard-concrete-right"].walking_speed_modifier = SS["HazardConcreteSpeed"].value
 --Time 15, amount 10,  speed 1.5(150%)
-data.raw.recipe["refined-concrete"].results = {{type = "item", name = "refined-concrete", amount = SS["re-concrete-results"].value}}
-data.raw.recipe["refined-concrete"].energy_required = SS["re-concrete-energy"].value
-data.raw.tile["refined-concrete"].walking_speed_modifier = SS["RefinedConcreteSpeed"].value
-data.raw.tile["refined-hazard-concrete-left"].walking_speed_modifier = SS["HazardRefinedConcreteSpeed"].value
-data.raw.tile["refined-hazard-concrete-right"].walking_speed_modifier = SS["HazardRefinedConcreteSpeed"].value
+Recipe["refined-concrete"].results = {{type = "item", name = "refined-concrete", amount = SS["re-concrete-results"].value}}
+Recipe["refined-concrete"].energy_required = SS["re-concrete-energy"].value
+Tile["refined-concrete"].walking_speed_modifier = SS["RefinedConcreteSpeed"].value
+Tile["refined-hazard-concrete-left"].walking_speed_modifier = SS["HazardRefinedConcreteSpeed"].value
+Tile["refined-hazard-concrete-right"].walking_speed_modifier = SS["HazardRefinedConcreteSpeed"].value
