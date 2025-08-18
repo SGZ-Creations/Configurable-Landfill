@@ -74,7 +74,7 @@ if mods["space-age"] then
                 type = "int-setting",
                 name = "IcePlatFormStackSize",
                 setting_type = "startup",
-                default_value = 50,
+                default_value = 100,
                 minimum_value = 1,
                 order = "3BF"
             },
@@ -83,7 +83,7 @@ if mods["space-age"] then
                 type = "int-setting",
                 name = "SpacePlatformFoundationStackSize",
                 setting_type = "startup",
-                default_value = 50,
+                default_value = 100,
                 minimum_value = 1,
                 order = "3GF"
             },
@@ -92,7 +92,7 @@ if mods["space-age"] then
                 type = "int-setting",
                 name = "ArtificialYumakoSoilStackSize",
                 setting_type = "startup",
-                default_value = 50,
+                default_value = 100,
                 minimum_value = 1,
                 order = "3CF"
             },
@@ -101,7 +101,7 @@ if mods["space-age"] then
                 type = "int-setting",
                 name = "OvergrowthYumakoSoilStackSize",
                 setting_type = "startup",
-                default_value = 50,
+                default_value = 100,
                 minimum_value = 1,
                 order = "3EF"
             },
@@ -110,7 +110,7 @@ if mods["space-age"] then
                 type = "int-setting",
                 name = "ArtificialJellynutSoilStackSize",
                 setting_type = "startup",
-                default_value = 50,
+                default_value = 100,
                 minimum_value = 1,
                 order = "3DF"
             },
@@ -119,7 +119,7 @@ if mods["space-age"] then
                 type = "int-setting",
                 name = "OvergrowthJellynutSoilStackSize",
                 setting_type = "startup",
-                default_value = 50,
+                default_value = 100,
                 minimum_value = 1,
                 order = "3FF"
             },

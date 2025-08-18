@@ -3,11 +3,12 @@ Version: 0.1.12
 Date: 18.08.25
   Changes:
     - Made settings folder with settings files.
+    - Made sure stack sizes mimics Base/SpaceeAge sizes.
   Features:
-    - Setting for space age.
+    - Stack size setting for Base & [space-age].
   Credit:
     - Thanks (lucerattow) @BlackkLotus es-ES Locals.
-    - Thanks (lucerattow) @BlackkLotus for PR stack sizes for Base & .
+    - Thanks (lucerattow) @BlackkLotus for PR stack sizes for Base & [space-age].
     - Thanks (lucerattow) @BlackkLotus https://github.com/SGZ-Creations/Configurable-Landfill/pull/2
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.11
