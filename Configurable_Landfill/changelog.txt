@@ -6,8 +6,8 @@ Date: 23.02.26
   Modding:
     - Made compatible with "? Transport_Drones_Continued >= 2.0.60",
   Info:
-    - Going 1.0 for the mod that i find it quite good & bug free. still not saying bug are 100% gone & new feature won't be happening
-    - Point is that i don't see what more to add or fix. & locales other than English can always be added/updated regardless of version number.
+    - Going 1.0 for the mod that i find it quite good & bug free. still not saying bugs are 100% gone & new feature won't be happening.
+    - Point is that i don't see what more to add or fix. And locales other than English can always be added/updated regardless of version number.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.13
 Date: 30.1.26
