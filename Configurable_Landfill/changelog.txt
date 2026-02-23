@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.14
+Date: 23.02.26
+  Bugfixes:
+    - Settings icon where both showing one concrete instead of separate once.
+  Modding:
+    - Made compatible with "? Transport_Drones_Continued >= 2.0.60",
+---------------------------------------------------------------------------------------------------
 Version: 0.1.13
 Date: 30.1.26
   Bugfixes:

@@ -1,6 +1,7 @@
+---@class data.LuaSettings
 local SS = settings.startup
 
-if mods["Transport_Drones_Meglinge_Fork"] or mods["Transport_Drones"] then
+if mods["Transport_Drones_Meglinge_Fork"] or mods["Transport_Drones"] or mods["Transport_Drones_Continued"] then
 	--[[count=10, time=1]]
 	data.raw.tile["transport-drone-road"].walking_speed_modifier = SS["RoadSpeed"].value
 	data.raw.recipe["road"].results = {{type="item", name="road", amount = SS["road-results"].value}}

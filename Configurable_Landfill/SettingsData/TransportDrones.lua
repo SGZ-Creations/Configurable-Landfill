@@ -1,4 +1,4 @@
-if (mods["Transport_Drones_Meglinge_Fork"] or mods["Transport_Drones"]) then
+if (mods["Transport_Drones_Meglinge_Fork"] or mods["Transport_Drones"] or mods["Transport_Drones_Continued"]) then
     data:extend({
         {
             type = "int-setting",
