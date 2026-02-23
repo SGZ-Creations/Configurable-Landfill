@@ -9,9 +9,10 @@
     "base",
     "? space-age",
     "? BigBags",
-    "? Transport_Drones",
     "? SeaBlock >= 0.6.0",
+    "? Transport_Drones",
     "? Transport_Drones_Meglinge_Fork",
+    "? Transport_Drones_Continued >= 2.0.60",
     "? Dectorio",
     "? Gregtorio"
   ]

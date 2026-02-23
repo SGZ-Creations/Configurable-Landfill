@@ -8,6 +8,7 @@ Date: 23.02.26
   Info:
     - Going 1.0 for the mod that i find it quite good & bug free. still not saying bugs are 100% gone & new feature won't be happening.
     - Point is that i don't see what more to add or fix. And locales other than English can always be added/updated regardless of version number.
+    - Sorry should this version break for you.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.13
 Date: 30.1.26
