@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: 23.02.26
+Date: 26.02.26
   Bugfixes:
     - Settings icon where both showing one concrete instead of separate once.
   Modding:
