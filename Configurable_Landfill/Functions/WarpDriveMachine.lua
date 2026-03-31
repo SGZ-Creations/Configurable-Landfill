@@ -26,7 +26,7 @@ if mods["Warp-Drive-Machine"]then
 			{type = "item", name = "lab", amount = 2},
 		}
 		Recipe["cyan-refined-concrete"].ingredients = {
-			{type = "item", name = "assembly-machine-1", amount = 2},
+			{type = "item", name = "assembling-machine-1", amount = 2},
 		}
 	end
 end
