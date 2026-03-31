@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 31.03.26
+  Features:
+    - Made setting & changes to Warp Drive machine mod.
+    - Setting for result amount.
+    - Recipe cost Check box setting. 
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 26.02.26
   Bugfixes:
