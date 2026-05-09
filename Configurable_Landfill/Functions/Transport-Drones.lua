@@ -1,4 +1,3 @@
----@class data.LuaSettings
 local SS = settings.startup
 
 if mods["Transport_Drones_Meglinge_Fork"] or mods["Transport_Drones"] or mods["Transport_Drones_Continued"] then

@@ -2,11 +2,9 @@
 local Tech = data.raw.technology
 ---@class data.RecipePrototype
 local Recipe = data.raw.recipe
----@class LuaSettings
-local SS = settings.startup
 ---@class data.TilePrototype
 local Tile = data.raw["tile"]
-
+local SS = settings.startup
 
 if mods["SeaBlock"]then
 	Tile["landfill"].minable = {mining_time = SS["MineFillTime"].value, result = "landfill"}
