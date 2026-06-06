@@ -17,7 +17,7 @@ if mods["SeaBlock"]then
             {
                 type = "recipe",
                 name = "seablock-landfill",
-                ingredients = {{type = "item", name = "stone", amount = SS["stone-landfill-cost"].value}},
+                ingredients = {{type = "item", name = "stone", amount = SS["stone_landfill_cost"].value}},
                 results = {{type ="item", name ="landfill", amount = SS["landfill-results"].value}},
             }
         })
@@ -31,7 +31,7 @@ if mods["SeaBlock"]then
                 type = "recipe",
                 name = "seablock-landfill",
                 enabled = false,
-                ingredients = {{type = "item", name = "stone", amount = SS["stone-landfill-cost"].value}},
+                ingredients = {{type = "item", name = "stone", amount = SS["stone_landfill_cost"].value}},
                 results = {{type ="item", name ="landfill", amount = SS["landfill-results"].value}},
             }
         })

@@ -1,10 +1,10 @@
 if mods["pycoalprocessing"] then
-	data.raw["int-setting"]["stone-landfill-cost"].order = "7AA"
-	data.raw["int-setting"]["stone-landfill-cost"].default_value = 30
+	data.raw["int-setting"]["stone_landfill_cost"].order = "7AA"
+	data.raw["int-setting"]["stone_landfill_cost"].default_value = 30
 	data:extend({
 		{
             type = "int-setting",
-            name = "gravel-landfill-cost",
+            name = "gravel_landfill_cost",
             setting_type = "startup",
             default_value = 30,
             minimum_value = 1,
@@ -12,7 +12,7 @@ if mods["pycoalprocessing"] then
         },
 		{
             type = "int-setting",
-            name = "soil-landfill-cost",
+            name = "soil_landfill_cost",
             setting_type = "startup",
             default_value = 30,
             minimum_value = 1,

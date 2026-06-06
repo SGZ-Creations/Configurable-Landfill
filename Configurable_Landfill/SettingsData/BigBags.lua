@@ -1,4 +1,4 @@
-if not mods["BigBags"] then
+if not mods["BigBags"] and not mods["BigBagsWorkerRobotStorageCompatibilityFork"] then
     data:extend({
         --Landfill Stack size:
         {
@@ -58,7 +58,7 @@ if not mods["BigBags"] then
 end
 
 if mods["space-age"] then
-    if not mods["BigBags"] then
+    if not mods["BigBags"] and not mods["BigBagsWorkerRobotStorageCompatibilityFork"] then
         data:extend({
             --Foundation
             {

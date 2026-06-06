@@ -8,7 +8,7 @@ local Item = data.raw["item"]
 
 
 --stack sizes
-if not mods["BigBags"] then
+if not mods["BigBags"] and not mods["BigBagsWorkerRobotStorageCompatibilityFork"] then
     Item["landfill"].stack_size = SS["LandfillStackSize"].value
     Item["stone-brick"].stack_size = SS["StoneBrickStackSize"].value
     Item["concrete"].stack_size = SS["ConcreteStackSize"].value
@@ -18,7 +18,9 @@ if not mods["BigBags"] then
 end
 
 --LandFill
-    Recipe["landfill"].ingredients = {{type = "item", name = "stone", amount = SS["stone-landfill-cost"].value}}
+if not mods["pycoalprocessing"] then
+    Recipe["landfill"].ingredients = {{type = "item", name = "stone", amount = SS["stone_landfill_cost"].value}}
+end
     Recipe["landfill"].results = {{type ="item", name ="landfill", amount = SS["landfill-results"].value}}
     Tile["landfill"].minable = {mining_time = SS["MineFillTime"].value, result = "landfill"}
     Recipe["landfill"].energy_required = SS["landfill-energy"].value/10

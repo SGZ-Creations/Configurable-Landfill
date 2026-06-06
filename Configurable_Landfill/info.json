@@ -9,6 +9,7 @@
     "base",
     "? space-age",
     "? BigBags",
+    "(?) BigBagsWorkerRobotStorageCompatibilityFork",
     "? SeaBlock >= 0.6.0",
     "? Transport_Drones",
     "? Transport_Drones_Meglinge_Fork",
@@ -16,6 +17,7 @@
     "? Dectorio",
     "? Gregtorio",
     "? pycoalprocessing >= 3.0.44",
+    "(?) pypostprocessing",
     "? Warp-Drive-Machine"
   ]
 }

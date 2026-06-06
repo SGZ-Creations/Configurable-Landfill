@@ -4,29 +4,22 @@ local Tech = data.raw.technology
 local Recipe = data.raw.recipe
 local SS = settings.startup
 
-function RemoveIngredient(recipe_name, ingredient_name)
-    for i, ingredient in pairs(Recipe[recipe_name].ingredients) do
-        if ingredient.name == ingredient_name then
-            table.remove(Recipe[recipe_name].ingredients, i)
-        elseif ingredient.name == nil then
-            error("ERROR.. \""..ingredient_name.."\" Ingrediant name Failed to Load!")
-        elseif Recipe[recipe_name] == nil then
-            error("ERROR... \""..recipe_name.."\" Recipe name Failed to Load!")
-        end
-    end
-end
-
 if mods["pycoalprocessing"] then
-	Recipe["landfill"].ingredients = {{type = "item", name = "gravel", amount = SS["gravel-landfill-cost"].value}}
-	Recipe["landfill"].ingredients = {{type = "item", name = "soil", amount = SS["soil-landfill-cost"].value}}
+	if mods["pypostprocessing"] then
+		if SS["landfill-unlocked-from-start"].value == true then
+			Tech["landfill"].prerequisites = nil
+		end
+	end
 
-	if SS["PY_Stone_Gone"].value == true then
-		RemoveIngredient("landfill", "stone")
+	Recipe["landfill"].ingredients = {}
+
+	if SS["PY_Stone_Gone"].value == false then
+		table.insert(Recipe["landfill"].ingredients, {type = "item", name = "stone", amount = SS["stone_landfill_cost"].value})
 	end
-	if SS["PY_Gravel_Gone"].value == true then
-		RemoveIngredient("landfill", "gravel")
+	if SS["PY_Gravel_Gone"].value == false then
+		table.insert(Recipe["landfill"].ingredients, {type = "item", name = "gravel", amount = SS["gravel_landfill_cost"].value})
 	end
-	if SS["PY_Soil_Gone"].value == true then
-		RemoveIngredient("landfill", "soil")
+	if SS["PY_Soil_Gone"].value == false then
+		table.insert(Recipe["landfill"].ingredients, {type = "item", name = "soil", amount = SS["soil_landfill_cost"].value})
 	end
 end
