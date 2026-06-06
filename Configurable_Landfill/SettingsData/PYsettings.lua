@@ -1,6 +1,6 @@
 if mods["pycoalprocessing"] then
-	data.raw["int-settings"]["stone-landfill-cost"].order = "7AA"
-	data.raw["int-settings"]["stone-landfill-cost"].default_value = 30
+	data.raw["int-setting"]["stone-landfill-cost"].order = "7AA"
+	data.raw["int-setting"]["stone-landfill-cost"].default_value = 30
 	data:extend({
 		{
             type = "int-setting",
