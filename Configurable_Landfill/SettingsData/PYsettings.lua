@@ -22,18 +22,21 @@ if mods["pycoalprocessing"] then
             type = "bool-setting",
             name = "PY_Stone_Gone",
             setting_type = "startup",
+			default_value = false,
             order = "7AD"
         },
 		{
             type = "bool-setting",
             name = "PY_Gravel_Gone",
             setting_type = "startup",
+			default_value = false,
             order = "7AE"
         },
 		{
             type = "bool-setting",
             name = "PY_Soil_Gone",
             setting_type = "startup",
+			default_value = false,
             order = "7AF"
         },
 	})
