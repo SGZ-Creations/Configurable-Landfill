@@ -5,6 +5,7 @@ Date: 31.03.26
     - Made setting & changes to Warp Drive machine mod.
     - Setting for result amount.
     - Recipe cost Check box setting.
+    - Added many new changes optional for landfill when playing wiht Py.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 26.02.26

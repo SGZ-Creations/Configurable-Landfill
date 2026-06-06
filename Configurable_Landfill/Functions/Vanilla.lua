@@ -18,7 +18,7 @@ if not mods["BigBags"] then
 end
 
 --LandFill
-    Recipe["landfill"].ingredients = {{type = "item", name = "stone", amount = SS["landfill-cost"].value}}
+    Recipe["landfill"].ingredients = {{type = "item", name = "stone", amount = SS["stone-landfill-cost"].value}}
     Recipe["landfill"].results = {{type ="item", name ="landfill", amount = SS["landfill-results"].value}}
     Tile["landfill"].minable = {mining_time = SS["MineFillTime"].value, result = "landfill"}
     Recipe["landfill"].energy_required = SS["landfill-energy"].value/10

@@ -9,7 +9,7 @@ data:extend({
     },
     {
         type = "int-setting",
-        name = "landfill-cost",
+        name = "stone-landfill-cost",
         setting_type = "startup",
         default_value = 50,
         order = "1AB"

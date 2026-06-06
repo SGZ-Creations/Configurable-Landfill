@@ -15,6 +15,7 @@
     "? Transport_Drones_Continued >= 2.0.60",
     "? Dectorio",
     "? Gregtorio",
+    "? pycoalprocessing >= 3.0.44",
     "? Warp-Drive-Machine"
   ]
 }
