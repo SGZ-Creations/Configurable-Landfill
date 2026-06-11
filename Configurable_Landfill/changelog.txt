@@ -6,6 +6,7 @@ Date: 31.03.26
     - Setting for result amount.
     - Recipe cost Check box setting.
     - Added many new changes optional for landfill when playing wiht Py.
+    - Fixed tile speed setings with PY.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 26.02.26
