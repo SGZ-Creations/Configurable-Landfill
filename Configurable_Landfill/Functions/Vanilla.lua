@@ -1,9 +1,9 @@
----@class LuaSettings
 local SS = settings.startup
 ---@class data.RecipePrototype
 local Recipe = data.raw["recipe"]
 ---@class data.TilePrototype
 local Tile = data.raw["tile"]
+---@class data.ItemPrototype
 local Item = data.raw["item"]
 
 
@@ -21,6 +21,7 @@ end
 if not mods["pycoalprocessing"] then
     Recipe["landfill"].ingredients = {{type = "item", name = "stone", amount = SS["stone_landfill_cost"].value}}
 end
+if not mods["pyindustry"] then
     Recipe["landfill"].results = {{type ="item", name ="landfill", amount = SS["landfill-results"].value}}
     Tile["landfill"].minable = {mining_time = SS["MineFillTime"].value, result = "landfill"}
     Recipe["landfill"].energy_required = SS["landfill-energy"].value/10
@@ -41,3 +42,4 @@ end
     Tile["refined-concrete"].walking_speed_modifier = SS["RefinedConcreteSpeed"].value
     Tile["refined-hazard-concrete-left"].walking_speed_modifier = SS["HazardRefinedConcreteSpeed"].value
     Tile["refined-hazard-concrete-right"].walking_speed_modifier = SS["HazardRefinedConcreteSpeed"].value
+end
