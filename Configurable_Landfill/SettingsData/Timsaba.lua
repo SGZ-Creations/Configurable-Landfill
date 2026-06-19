@@ -1,4 +1,4 @@
-if mods["pycoalprocessing"] then
+if mods["TIMSABA"] then
 	data.raw["int-setting"]["stone_landfill_cost"].order = "7AA"
 	data.raw["int-setting"]["stone_landfill_cost"].default_value = 30
 	data:extend({
