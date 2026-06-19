@@ -4,17 +4,9 @@ if mods["pycoalprocessing"] then
 	data:extend({
 		{
             type = "int-setting",
-            name = "gravel_landfill_cost",
+            name = "CrushedStone_landfill_cost",
             setting_type = "startup",
-            default_value = 30,
-            minimum_value = 1,
-            order = "7AB"
-        },
-		{
-            type = "int-setting",
-            name = "soil_landfill_cost",
-            setting_type = "startup",
-            default_value = 30,
+            default_value = 32,
             minimum_value = 1,
             order = "7AC"
         },
@@ -27,17 +19,10 @@ if mods["pycoalprocessing"] then
         },
 		{
             type = "bool-setting",
-            name = "PY_Gravel_Gone",
+            name = "CrushedStone_Gone",
             setting_type = "startup",
 			default_value = false,
-            order = "7AE"
-        },
-		{
-            type = "bool-setting",
-            name = "PY_Soil_Gone",
-            setting_type = "startup",
-			default_value = false,
-            order = "7AF"
+            order = "7AD"
         },
 	})
 end
