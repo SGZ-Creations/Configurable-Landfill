@@ -16,6 +16,6 @@ if mods["TIMSABA"] then
 		table.insert(Recipe["landfill"].ingredients, {type = "item", name = "stone", amount = SS["stone_landfill_cost"].value})
 	end
 	if SS["CrushedStone_Gone"].value == false then
-		table.insert(Recipe["landfill"].ingredients, {type = "item", name = "gravel", amount = SS["CrushedStone_landfill_cost"].value})
+		table.insert(Recipe["landfill"].ingredients, {type = "item", name = "angel-stone-crushed", amount = SS["CrushedStone_landfill_cost"].value})
 	end
 end
