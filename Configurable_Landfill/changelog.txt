@@ -2,11 +2,11 @@
 Version: 1.1.0
 Date: 31.03.26
   Features:
-    - Made setting & changes to Warp Drive machine mod.
-    - Setting for result amount.
-    - Recipe cost Check box setting.
-    - Added many new changes optional for landfill when playing wiht Py.
-    - Fixed tile speed setings with PY.
+    - [Warp Drive machine] Made setting & changes.
+    - [Warp Drive machine] Setting for result amount.
+    - [Warp Drive machine] Recipe cost Check box setting.
+  Bugfixes:
+    - [PY] Tile speed settings.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 26.02.26
