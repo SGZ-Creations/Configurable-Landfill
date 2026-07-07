@@ -5,6 +5,9 @@ Date: 31.03.26
     - [Warp Drive machine] Made setting & changes.
     - [Warp Drive machine] Setting for result amount.
     - [Warp Drive machine] Recipe cost Check box setting.
+    - [K2]or[K2 Standalone tiles] Tiles Speed Settings.
+    - [K2 Standalone tiles] Recipe change with bobs.
+    - [PY] Many new optional changes for landfill.
   Bugfixes:
     - [PY] Tile speed settings.
 ---------------------------------------------------------------------------------------------------
