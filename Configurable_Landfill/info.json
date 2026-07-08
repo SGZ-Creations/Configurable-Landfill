@@ -7,19 +7,19 @@
   "description": "Allows the player to change: Cost, Result, CraftTime, UnlockedFromStart, Stacksize if not using BigBags2.",
   "dependencies": [
     "base",
-    "? space-age",
     "? BigBags",
-    "(?) BigBagsWorkerRobotStorageCompatibilityFork",
+    "? Dectorio",
+    "? Gregtorio",
+    "? pycoalprocessing >= 3.0.44",
+    "? space-age",
     "? SeaBlock >= 0.6.0",
     "? Transport_Drones",
     "? Transport_Drones_Meglinge_Fork",
     "? Transport_Drones_Continued >= 2.0.60",
-    "? Dectorio",
-    "? Gregtorio",
+    "? Warp-Drive-Machine",
+    "(?) BigBagsWorkerRobotStorageCompatibilityFork",
     "(?) TIMSABA >= 1.5.0",
     "(?) pyindustry >= 3.0.21",
-    "? pycoalprocessing >= 3.0.44",
-    "(?) pypostprocessing",
-    "? Warp-Drive-Machine"
+    "(?) pypostprocessing"
   ]
 }
