@@ -1,8 +1,5 @@
----@class data.RecipePrototype
-local Recipe = data.raw.recipe
----@class data.TilePrototype
-local Tile = data.raw["tile"]
 local SS = settings.startup
+local Recipe = data.raw.recipe
 
 if mods["Warp-Drive-Machine"]then
 	--Tile[""].results = {""}

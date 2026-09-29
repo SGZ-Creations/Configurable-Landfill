@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.1.0
+Version: 2.0.0
 Date: 31.03.26
+  Major Features:
+    - Update 2.1
   Features:
     - [Warp Drive machine] Made setting & changes.
     - [Warp Drive machine] Setting for result amount.
@@ -10,6 +12,8 @@ Date: 31.03.26
     - [PY] Many new optional changes for landfill.
   Bugfixes:
     - [PY] Tile speed settings.
+  Info:
+    - [Warp Drive machine] Incomplete features will be completed later.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 26.02.26

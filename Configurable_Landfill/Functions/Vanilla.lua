@@ -1,9 +1,6 @@
 local SS = settings.startup
----@class data.RecipePrototype
 local Recipe = data.raw["recipe"]
----@class data.TilePrototype
 local Tile = data.raw["tile"]
----@class data.ItemPrototype
 local Item = data.raw["item"]
 
 

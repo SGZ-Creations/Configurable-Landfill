@@ -1,10 +1,8 @@
----@class data.TechnologyPrototype
-local Tech = data.raw.technology
----@class data.RecipePrototype
-local Recipe = data.raw.recipe
----@class data.TilePrototype
-local Tile = data.raw["tile"]
 local SS = settings.startup
+local Tech = data.raw.technology
+local Recipe = data.raw.recipe
+local Tile = data.raw["tile"]
+
 
 if mods["SeaBlock"]then
 	Tile["landfill"].minable = {mining_time = SS["MineFillTime"].value, result = "landfill"}

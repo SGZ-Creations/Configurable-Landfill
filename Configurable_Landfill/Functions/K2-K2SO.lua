@@ -1,7 +1,5 @@
 local SS = settings.startup
----@class data.RecipePrototype
 local Recipe = data.raw["recipe"]
----@class data.TilePrototype
 local Tile = data.raw["tile"]
 
 if mods["k2-reinforced-plates"]then

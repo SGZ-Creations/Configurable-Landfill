@@ -1,9 +1,6 @@
----@class data.TechnologyPrototype
-local Tech = data.raw.technology
----@class data.RecipePrototype
-local Recipe = data.raw.recipe
 local SS = settings.startup
----@class data.TilePrototype
+local Tech = data.raw.technology
+local Recipe = data.raw.recipe
 local Tile = data.raw["tile"]
 
 if mods["pycoalprocessing"] then
